@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorBackground">@color/backgroundLight</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:buttonStyle">@style/TealButton</item>
+        <item name="android:editTextStyle">@style/TealEditText</item>
+    </style>
+
+    <style name="TealButton" parent="Widget.AppCompat.Button">
+        <item name="android:backgroundTint">@color/tealPrimary</item>
+        <item name="android:textColor">@android:color/white</item>
+
+    </style>
+
+    <style name="TealEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:backgroundTint">@color/tealAccent</item>
+        <item name="android:textColor">@color/textColor</item>
+        
+    </style>
+
+    <!-- Use this in your styles.xml -->
+    <style name="Widget.MyApp.EditText" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="boxBackgroundColor">@color/your_color</item>
+        <item name="boxCornerRadiusTopStart">8dp</item> <!-- Customize corner radius as needed -->
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+        <item name="android:textColorHint">@color/your_hint_color</item>
+    </style>
+
+
+</resources>

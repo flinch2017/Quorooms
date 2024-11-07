@@ -10,4 +10,17 @@
     <color name="divider">#DDDDDD</color>
     <color name="story_border">#FF0000</color>
     <color name="colorAccent">#03DAC5</color>
+    <color name="tealPrimary">#008080</color> <!-- Teal color for primary elements -->
+    <color name="tealAccent">#00A3A3</color> <!-- Slightly lighter teal accent color -->
+    <color name="backgroundLight">#F8F9FA</color> <!-- Light background color -->
+    <color name="textColor">#333333</color> <!-- Dark text color for contrast -->
+    <color name="hintColor">#888888</color> <!-- Hint text color -->
+    <color name="your_color">#FF0000</color> <!-- Replace with your preferred color -->
+    <color name="your_hint_color">#808080</color> <!-- Replace with your preferred hint color -->
+    <color name="colorStart">#FF7F50</color>
+    <color name="colorEnd">#6A5ACD</color>
+
+    <color name="coralAccent">#FF6F61</color>  <!-- Soft Coral -->
+    <color name="lightPurple">#9C27B0</color>  <!-- Light Purple -->
+    <color name="lightCream">#FFF8E1</color>   <!-- Light Cream -->
 </resources>
