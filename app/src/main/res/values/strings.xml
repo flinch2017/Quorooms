@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Quorooms</string>
+    <string name="title_home">Home</string>
+    <string name="title_explore">Explore</string>
+    <string name="title_profile">Profile</string>
+    <string name="add_story">Add Your Story</string>
+    <string name="react">Like</string>
+    <string name="comment">Add Comment</string>
+</resources>

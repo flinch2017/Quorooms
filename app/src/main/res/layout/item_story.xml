@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Clickable story image -->
+        <ImageView
+            android:id="@+id/storyImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/nophoto" /> <!-- Default image for the story -->
+
+        <!-- User's profile picture -->
+        <ImageView
+            android:id="@+id/userImage"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/circle_background" />
+
+        <!-- Add story icon (only visible for user's own story) -->
+        <ImageView
+            android:id="@+id/addStoryIcon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="8dp"
+            android:visibility="gone"
+            android:src="@drawable/ic_add" /> <!-- Add story icon -->
+
+        <!-- User name -->
+        <TextView
+            android:id="@+id/userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/userImage"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="12dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
